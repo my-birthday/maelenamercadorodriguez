@@ -107,8 +107,39 @@
 
 
    
-<script>
-  
+ <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+
 </script>
 
 	<title>Ma Elena Mercado Rodríguez - ¡MI CUMPLEAÑOS!</title>
@@ -336,13 +367,13 @@
 
         <div class="row justify-content-center mt-0" style="margin: 0 auto;">
             <div class="row justify-content-center" style="margin:0 auto;">
-         <p class='tespero col-11 col-md-6 mt-0 mb-4 text-center' style="font-size: 16px; color:#252323; font-family: 'Cormorant Garamond', serif; font-weight: 300;
+         <p class='tespero col-11 col-md-6 mt-0 mb-4 text-center' style="font-size: 20px; color:#252323; font-family: 'Cormorant Garamond', serif; font-weight: 300;
   font-style: italic;">Queremos que este momento tan especial lo disfrutes tanto como nosotros, por eso en esta ocasión hemos decidido que el evento sea solo para mayores de edad.</p> 
-         <p class='tespero col-12 col-lg-12 mt-2 mb-4 text-center' style="font-size: 30px; letter-spacing: 4px; font-size: 16px; color:#a06e49; font-family: 'Rye', serif; font-weight: 400; font-style: normal;"><b>NO NIÑOS.</b></p> 
+         <p class='tespero col-12 col-lg-12 mt-2 mb-4 text-center' style=" letter-spacing: 4px; font-size: 22px; color:#a06e49; font-family: 'Rye', serif; font-weight: 400; font-style: normal;">NO NIÑOS.</p> 
 
-  <p class='tespero col-11 col-md-6 mt-0 mb-4 text-center' style="font-size: 16px; color:#252323; font-family: 'Cormorant Garamond', serif; font-weight: 300;
+  <p class='tespero col-11 col-md-6 mt-0 mb-4 text-center' style="font-size: 20px; color:#252323; font-family: 'Cormorant Garamond', serif; font-weight: 300;
   font-style: italic;">EN HONOR A LA FESTEJADA, EVITAR VESTIR COLOR ROJO.</p>
-  <p class='tespero col-12 col-lg-12 mt-0 mb-5 text-center' style="font-size: 20px; letter-spacing: 4px; font-size: 16px; color:#252323; font-family: 'Cormorant Garamond', serif; font-weight: 300;
+  <p class='tespero col-12 col-lg-12 mt-0 mb-5 text-center' style="font-size: 20px; letter-spacing: 4px; font-size: 20px; color:#252323; font-family: 'Cormorant Garamond', serif; font-weight: 300;
   font-style: italic;"><b>¡GRACIAS!.</b></p>
   <h4 class='dondeyCuando col-12 col-lg-12 text-center mb-5' style="font-family: 'Rye', serif; font-weight: 400; font-style: normal;">¡Te esperamos!</h4> <br><br>    
        <!--  <h5 class='col-11 col-lg-12 mt-4 mb-4 text-center' style="color:#000; letter-spacing: 3px; font-family: 'Cormorant Garamond', serif;"><i class="bi bi-bank" style="color:#000;" ></i>ESTE ES TU PASE DE ENTRADA</h5> -->
