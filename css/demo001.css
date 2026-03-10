@@ -222,7 +222,7 @@ font-family: 'Arizonia', cursive;
   margin:0 50px;
   margin:10px;
   border-radius: 50%;
- border-left: 1px solid #a06e49;
+ border-left: 1px solid #7a003d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,7 +231,7 @@ font-family: 'Arizonia', cursive;
 .simply-amount {
   display: block;
   font-size: 45px;
-  color:#a06e49;
+  color:#7a003d;
 
  font-family: "Rye", serif;
   font-weight: 400;
@@ -323,7 +323,7 @@ letter-spacing: 5px;
   font-weight: 400;
   font-style: normal;
   margin-top:0px;
-  color:#a06e49;
+  color:#7a003d;
   font-size: 40px;
 background-color: #fff; 
 height:60px; 
@@ -406,7 +406,7 @@ font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   margin-top:10px;
-  color:#a06e49;
+  color:#7a003d;
   font-size: 30px;
   letter-spacing: 2px;
 
@@ -466,7 +466,7 @@ font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   margin-top:10px;
-  color:#a06e49;
+  color:#7a003d;
   font-size: 30px;
   letter-spacing: 2px;
 
@@ -476,7 +476,7 @@ font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: normal;
   margin-top:0px;
-  color:#544038;
+  color:#7a003d;
   font-size: 40px;
 background-color: #fff; 
 height:60px; 
@@ -522,7 +522,7 @@ font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   margin-top:10px;
-  color:#a06e49;
+  color:#7a003d;
   font-size: 30px;
   letter-spacing: 2px;
 
@@ -532,7 +532,7 @@ font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: normal;
   margin-top:0px;
-  color:#544038;
+  color:#7a003d;
   font-size: 35px;
 background-color: #fff; 
 height:70px; 
@@ -927,20 +927,20 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 }
 .btn{
   text-decoration:none;
-  color:#dcd2d0;
+  color:#fff;
 
-  background-color: #a06e49;
+  background-color: #7a003d;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
-    outline: thick double #a06e49;
+    outline: thick double #7a003d;
 
 }
 
 
 .btn:hover{
   text-decoration:none;
-  color: #a06e49;
-  border-color: #a06e49;
+  color: #7a003d;
+  border-color: #7a003d;
   background-color:transparent; 
  
 }
@@ -1046,8 +1046,8 @@ letter-spacing: 3px;
 }
 .btnComoLlegar{
  text-decoration: none;
-  color:#dcd2d0;
-  background-color: #a06e49; 
+  color:#fff;
+  background-color: #7a003d; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -1055,6 +1055,7 @@ letter-spacing: 3px;
   justify-content: center;
   align-items: center;
   margin-top:-10px;
+    outline: thick double #7a003d;
  
 }
 
@@ -1063,7 +1064,7 @@ letter-spacing: 3px;
   background-color: transparent; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
-  color:#a06e49;
+  color:#7a003d;
   height: 45px;
 }
 @media (min-width: 1200px) { /*laptop*/
@@ -1435,8 +1436,8 @@ margin-bottom:;}
 }
 .btnComoLlegar{
     text-decoration: none;
-  color:#dcd2d0;
-  background-color: #a06e49; 
+  color:#fff;
+  background-color: #7a003d; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -1444,14 +1445,15 @@ margin-bottom:;}
   justify-content: center;
   align-items: center;
   margin-top:-10px;
+  outline: thick double #7a003d;
 }
 
 .btnComoLlegar:hover{
   text-decoration: none;
-  background-color: #a06e49; 
+  background-color: transparent; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
-  color:#a06e49;
+  color:#7a003d;
   height: 45px;
 }
 @media (min-width: 1200px) { /*laptop*/
@@ -1565,8 +1567,8 @@ margin-bottom:;}
 }
 .btnComoLlegar{
 text-decoration: none;
-  color:#dcd2d0;
-  background-color: #a06e49; 
+  color:#fff;
+  background-color: #7a003d; 
   font-family: 'Arapey', serif; 
   font-size: 15px;
    height: 45px;
@@ -1574,6 +1576,7 @@ text-decoration: none;
   justify-content: center;
   align-items: center;
   margin-top:-10px;
+  outline: thick double #7a003d;
 }
 }
 .evitarDress{
@@ -1829,7 +1832,7 @@ img.hover-shadow {
 
 .card .front {
      background-size: 100%; 
-background-image: url(../img/fondo10.png);  
+background-image: url(../img/fondo100.png);  
 background-attachment: fixed;
     transform: perspective(500px) rotateX(0deg);
     outline: thick double #fff;
